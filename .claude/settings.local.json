@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv init:*)",
+      "Bash(uv add:*)",
+      "Bash(mkdir:*)",
+      "Bash(uv run:*)",
+      "Bash(touch:*)",
+      "Bash(ls:*)",
+      "Bash(PYTHONPATH=src uv run python -m adb_file_transfer.transfer --action push --local test_bulk --remote /storage/emulated/0/Pictures/ --host 192.168.1.100:5555 --bulk)"
+    ],
+    "deny": []
+  }
+}
