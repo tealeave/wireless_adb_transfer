@@ -37,6 +37,15 @@ Easy wireless file transfer between PC and Android devices using ADB.
 You'll need your phone's IP address and port for wireless transfers. Here are several ways to find it:
 
 ### Method 1: Through Wireless Debugging (Recommended)
+
+### Enable Developer options
+
+1. Open Settings and scroll down to **About phone** (on some devices this is under **System** or **General management**).
+2. Tap **Build number** (or navigate to **Software information → Build number**) seven times.
+
+You should see a message confirming that Developer options have been enabled.
+
+Enter your PIN/pattern if prompted; you’ll see a “You are now a developer!” toast.
 1. Go to **Settings > Developer Options > Wireless debugging**
 2. Enable "Wireless debugging"
 3. Tap **"Pair device with pairing code"**
